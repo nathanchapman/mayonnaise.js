@@ -104,11 +104,8 @@ var quotes = [
     'You\'ve got it set to M for MINI, when it should be set to W for WUMBO.'
 ];
 
-mayonnaise.prototype.get = function() {
-    return quotes[Math.floor(Math.random() * quotes.length)];
-};
-
 mayonnaise.prototype.get = function(number) {
+    if (!number) return 'Is mayonnaise an instrument?';
     var string = '';
     for (var i = 0; i < number; i++) {
         string += quotes[Math.floor(Math.random() * quotes.length)] + ' ';

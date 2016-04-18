@@ -1,6 +1,6 @@
 {
     "name": "mayonnaise.js",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Placeholder text for your node.js projects, courtesy of Patrick Star.",
     "main": "mayonnaise.js",
     "tonicExampleFilename": "example.js",
