@@ -1,0 +1,8 @@
+{
+  "name": "mayonnaise.js",
+  "version": "1.0.0",
+  "description": "Placeholder text for your node.js projects, courtesy of Patrick",
+  "main": "mayonnaise.js",
+  "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
+  "license": "MIT"
+}
