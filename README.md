@@ -1,10 +1,11 @@
 # mayonnaise.js
 Placeholder text for your node.js projects, courtesy of Patrick Star.
 
-## Installation
+## 
 
 <img align="right" width="300" src="https://i.ytimg.com/vi/d1JA-nh0IfI/hqdefault.jpg">
 
+## Installation
 ```sh
 $ npm install mayonnaise.js
 ```
