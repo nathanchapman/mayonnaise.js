@@ -110,7 +110,7 @@ mayonnaise.prototype.get = function() {
 
 mayonnaise.prototype.get = function(number) {
     var string = '';
-    for (var i = 0; i < number && i < quotes.length; i++) {
+    for (var i = 0; i < number; i++) {
         string += quotes[Math.floor(Math.random() * quotes.length)] + ' ';
     }
     return string;

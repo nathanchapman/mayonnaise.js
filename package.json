@@ -1,8 +1,25 @@
 {
-  "name": "mayonnaise.js",
-  "version": "0.2.0",
-  "description": "Placeholder text for your node.js projects, courtesy of Patrick",
-  "main": "mayonnaise.js",
-  "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
-  "license": "MIT"
+    "name": "mayonnaise.js",
+    "version": "0.3.0",
+    "description": "Placeholder text for your node.js projects, courtesy of Patrick Star.",
+    "main": "mayonnaise.js",
+    "tonicExampleFilename": "example.js",
+    "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
+    "keywords": [
+        "placeholder",
+        "text",
+        "Patrick",
+        "Star",
+        "lorem",
+        "ipsum"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nathanchapman/mayonnaise.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nathanchapman/mayonnaise.js/issues"
+    },
+    "homepage": "https://github.com/nathanchapman/mayonnaise.js#readme"
 }
