@@ -1,3 +1,10 @@
+/*!
+ * mayonnaise.js <https://github.com/nathanchapman/mayonnaise.js>
+ *
+ * Copyright (c) 2016 Nathan Chapman.
+ * Licensed under the MIT license.
+ */
+
 var mayonnaise = function() {};
 var quotes = [
     '*sniffle* That Penny has the most beautiful voice.',
@@ -59,7 +66,7 @@ var quotes = [
     'Now if you\'ll excuse me, it\'s time for my weekly condiment soaking.',
     'OH BOY I LOVE BEING PURPLE!',
     'Oh no, I broke it!',
-    'Ohhhhh. East? I thought you said WEEST.',
+    'Ohhhhh. EAST? I thought you said WEAST.',
     'OKAY, MAGICAL TALKING TRASHCAN!',
     'Once there was an ugly barnacle. He was so ugly, everyone died. The end.',
     'One watermelon, fresh from the manure field your spookiness!',
