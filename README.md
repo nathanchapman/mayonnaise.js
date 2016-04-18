@@ -1,6 +1,6 @@
 # mayonnaise.js
-Placeholder text for your node.js projects, courtesy of Patrick Star and his wonderful quotations.
 <img align="right" width="300" src="https://i.ytimg.com/vi/d1JA-nh0IfI/hqdefault.jpg">
+Placeholder text for your node.js projects, courtesy of Patrick Star and his wonderful quotations.
 
 ## Installation
 ```sh
