@@ -115,7 +115,10 @@ mayonnaise.prototype.get = function(number) {
     if (!number) return 'Is mayonnaise an instrument?';
     var string = '';
     for (var i = 0; i < number; i++) {
-        string += quotes[Math.floor(Math.random() * quotes.length)] + ' ';
+      string += quotes[Math.floor(Math.random() * quotes.length)];
+      if (i != number-1) {
+        string += ' ';
+      }
     }
     return string;
 };
