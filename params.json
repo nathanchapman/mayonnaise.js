@@ -1,6 +1,6 @@
 {
   "name": "Mayonnaise.js",
   "tagline": "Placeholder text for your node.js projects, courtesy of Patrick Star.",
-  "body": "# mayonnaise.js [![npm](https://img.shields.io/npm/v/mayonnaise.js.svg)](https://www.npmjs.com/package/mayonnaise.js)\r\n<img align=\"right\" width=\"300\" src=\"https://i.ytimg.com/vi/d1JA-nh0IfI/hqdefault.jpg\">\r\n\r\nPlaceholder text for your node.js projects, courtesy of Patrick Star and his wonderful quotations.\r\n\r\n## Installation\r\n```sh\r\n$ npm install mayonnaise.js\r\n```\r\n\r\n## Usage\r\n```javascript\r\nvar mayonnaise = require('mayonnaise.js');\r\nvar numberOfSentences = 1;\r\nvar string = mayonnaise.get(numberOfSentences);\r\nconsole.log(string); // Is mayonnaise an instrument?\r\n```\r\n",
+  "body": "# mayonnaise.js [![npm](https://img.shields.io/npm/v/mayonnaise.js.svg)](https://www.npmjs.com/package/mayonnaise.js)\r\n\r\nPlaceholder text for your node.js projects, courtesy of Patrick Star and his wonderful quotations.\r\n\r\n<img width=\"300\" src=\"https://i.ytimg.com/vi/d1JA-nh0IfI/hqdefault.jpg\">\r\n\r\n## Installation\r\n```sh\r\n$ npm install mayonnaise.js\r\n```\r\n\r\n## Usage\r\n```javascript\r\nvar mayonnaise = require('mayonnaise.js');\r\nvar numberOfSentences = 1;\r\nvar string = mayonnaise.get(numberOfSentences);\r\nconsole.log(string); // Is mayonnaise an instrument?\r\n```\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
