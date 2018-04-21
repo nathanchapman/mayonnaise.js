@@ -1,19 +1,32 @@
 {
     "name": "mayonnaise.js",
-    "version": "1.0.0",
-    "description": "Placeholder text for your node.js projects, courtesy of Patrick Star.",
-    "main": "mayonnaise.js",
-    "tonicExampleFilename": "example.js",
+    "version": "1.1.0",
+    "license": "MIT",
+    "description": "JavaScript fake data generator, courtesy of Patrick Star.",
     "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
+    "main": "src/mayonnaise.js",
+    "tonicExampleFilename": "src/example.js",
     "keywords": [
+        "mayonnaise",
         "placeholder",
         "text",
         "Patrick",
         "Star",
+        "spongebob",
         "lorem",
-        "ipsum"
+        "ipsum",
+        "faker",
+        "fake",
+        "data",
+        "casual",
+        "fixtures",
+        "testing",
+        "seed",
+        "random",
+        "mock",
+        "mocking",
+        "generator"
     ],
-    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/nathanchapman/mayonnaise.js.git"
@@ -21,5 +34,15 @@
     "bugs": {
         "url": "https://github.com/nathanchapman/mayonnaise.js/issues"
     },
-    "homepage": "https://github.com/nathanchapman/mayonnaise.js#readme"
+    "homepage": "https://github.com/nathanchapman/mayonnaise.js#readme",
+    "dependencies": {
+        "casual": "^1.5.19"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-import": "^2.11.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.7.0"
+    }
 }
