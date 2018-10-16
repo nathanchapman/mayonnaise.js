@@ -4,6 +4,8 @@ JavaScript fake data generator, courtesy of Patrick Star.
 
 <img width="368" src="https://i.ytimg.com/vi/d1JA-nh0IfI/hqdefault.jpg">
 
+> Is mayonnaise an instrument?
+
 ## Installation
 
 ```sh
