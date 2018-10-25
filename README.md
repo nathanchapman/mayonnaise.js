@@ -1,4 +1,4 @@
-# mayonnaise.js [![npm](https://img.shields.io/npm/v/mayonnaise.js.svg)](https://www.npmjs.com/package/mayonnaise.js)
+# mayonnaise.js [![version](https://img.shields.io/npm/v/mayonnaise.js.svg)](https://www.npmjs.com/package/mayonnaise.js) [![downloads](https://img.shields.io/npm/dt/mayonnaise.js.svg)](https://www.npmjs.com/package/mayonnaise.js)
 
 JavaScript fake data generator, courtesy of Patrick Star.
 
