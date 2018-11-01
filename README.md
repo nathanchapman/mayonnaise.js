@@ -18,29 +18,29 @@ $ npm install mayonnaise.js
 const mayonnaise = require('mayonnaise.js');
 
 // Text is generated from Patrick's wonderful quotations.
-let sentence = mayonnaise.sentence;
-let sentences = mayonnaise.sentences(3);
-let title = mayonnaise.title;
-let text = mayonnaise.text;
-let description = mayonnaise.description;
-let short_description = mayonnaise.short_description;
-let string = mayonnaise.string;
-let word = mayonnaise.word;
-let words = mayonnaise.words(7);
-let array_of_words = mayonnaise.array_of_words(7);
-let letter = mayonnaise.letter;
+const sentence = mayonnaise.sentence;
+const sentences = mayonnaise.sentences(3);
+const title = mayonnaise.title;
+const text = mayonnaise.text;
+const description = mayonnaise.description;
+const short_description = mayonnaise.short_description;
+const string = mayonnaise.string;
+const word = mayonnaise.word;
+const words = mayonnaise.words(7);
+const array_of_words = mayonnaise.array_of_words(7);
+const letter = mayonnaise.letter;
 
 // User data is generated from SpongeBob characters.
-let name = mayonnaise.name;
-let username = mayonnaise.username;
-let first_name = mayonnaise.first_name;
-let last_name = mayonnaise.last_name;
-let full_name = mayonnaise.full_name;
-let catch_phrase = mayonnaise.catch_phrase;
+const name = mayonnaise.name;
+const username = mayonnaise.username;
+const first_name = mayonnaise.first_name;
+const last_name = mayonnaise.last_name;
+const full_name = mayonnaise.full_name;
+const catch_phrase = mayonnaise.catch_phrase;
 
 // Place and location return different locations from the SpongeBob universe.
-let place = mayonnaise.place;
-let location = mayonnaise.location;
+const place = mayonnaise.place;
+const location = mayonnaise.location;
 
 ...
 ```
