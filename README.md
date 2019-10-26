@@ -48,3 +48,7 @@ const location = mayonnaise.location;
 ## API
 
 `mayonnaise.js` uses [casual](https://github.com/boo1ean/casual) under the hood, so you can use all of the generators specified in their [documentation](https://github.com/boo1ean/casual#embedded-generators) as well as various locales.
+
+## Sponsorship 🎗
+
+If you found this project useful, please consider becoming a [sponsor on GitHub](https://github.com/sponsors/nathanchapman).
