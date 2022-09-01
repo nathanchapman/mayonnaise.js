@@ -1,48 +1,36 @@
 {
-    "name": "mayonnaise.js",
-    "version": "1.1.1",
-    "license": "MIT",
-    "description": "JavaScript fake data generator, courtesy of Patrick Star.",
-    "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
-    "main": "src/mayonnaise.js",
-    "tonicExampleFilename": "src/example.js",
-    "keywords": [
-        "mayonnaise",
-        "placeholder",
-        "text",
-        "Patrick",
-        "Star",
-        "spongebob",
-        "lorem",
-        "ipsum",
-        "faker",
-        "fake",
-        "data",
-        "casual",
-        "fixtures",
-        "testing",
-        "seed",
-        "random",
-        "mock",
-        "mocking",
-        "generator"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/nathanchapman/mayonnaise.js.git"
-    },
-    "bugs": {
-        "url": "https://github.com/nathanchapman/mayonnaise.js/issues"
-    },
-    "homepage": "https://github.com/nathanchapman/mayonnaise.js#readme",
-    "dependencies": {
-        "casual": "^1.6.0"
-    },
-    "devDependencies": {
-        "eslint": "^5.16.0",
-        "eslint-config-airbnb": "^17.1.0",
-        "eslint-plugin-import": "^2.16.0",
-        "eslint-plugin-jsx-a11y": "^6.2.1",
-        "eslint-plugin-react": "^7.12.4"
-    }
+  "name": "mayonnaise.js",
+  "version": "1.1.1",
+  "license": "MIT",
+  "description": "JavaScript fake data generator, courtesy of Patrick Star.",
+  "author": "Nathan Chapman <nathanchapman@duck.com> (http://nathanchapman.io)",
+  "main": "src/mayonnaise.js",
+  "tonicExampleFilename": "src/example.js",
+  "keywords": [
+    "mayonnaise",
+    "placeholder",
+    "text",
+    "Patrick",
+    "Star",
+    "spongebob",
+    "lorem",
+    "ipsum",
+    "faker",
+    "fake",
+    "data",
+    "casual",
+    "fixtures",
+    "testing",
+    "seed",
+    "random",
+    "mock",
+    "mocking",
+    "generator"
+  ],
+  "repository": "github:nathanchapman/mayonnaise.js",
+  "bugs": "https://github.com/nathanchapman/mayonnaise.js/issues",
+  "homepage": "https://github.com/nathanchapman/mayonnaise.js#readme",
+  "dependencies": {
+    "casual": "^1.6.2"
+  }
 }

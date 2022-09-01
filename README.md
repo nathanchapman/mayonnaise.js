@@ -9,7 +9,7 @@ JavaScript fake data generator, courtesy of Patrick Star.
 ## Installation
 
 ```sh
-$ npm install mayonnaise.js
+npm install mayonnaise.js
 ```
 
 ## Usage
@@ -17,30 +17,33 @@ $ npm install mayonnaise.js
 ```javascript
 const mayonnaise = require('mayonnaise.js');
 
-// Text is generated from Patrick's wonderful quotations.
+// Text is generated from Patrick's wonderful quotations
 const sentence = mayonnaise.sentence;
-const sentences = mayonnaise.sentences(3);
+const paragraph = mayonnaise.sentences(4);
 const title = mayonnaise.title;
 const text = mayonnaise.text;
 const description = mayonnaise.description;
-const short_description = mayonnaise.short_description;
+const shortDescription = mayonnaise.short_description;
 const string = mayonnaise.string;
 const word = mayonnaise.word;
 const words = mayonnaise.words(7);
-const array_of_words = mayonnaise.array_of_words(7);
+const arrayofWords = mayonnaise.array_of_words(7);
 const letter = mayonnaise.letter;
 
-// User data is generated from SpongeBob characters.
+// User data is generated from SpongeBob characters
 const name = mayonnaise.name;
 const username = mayonnaise.username;
-const first_name = mayonnaise.first_name;
-const last_name = mayonnaise.last_name;
-const full_name = mayonnaise.full_name;
-const catch_phrase = mayonnaise.catch_phrase;
+const firstName = mayonnaise.first_name;
+const lastName = mayonnaise.last_name;
+const fullName = mayonnaise.full_name;
+const catchPhrase = mayonnaise.catch_phrase;
 
-// Place and location return different locations from the SpongeBob universe.
+// place and location return different locations from the SpongeBob universe
 const place = mayonnaise.place;
 const location = mayonnaise.location;
+
+// timecards are now available
+const timecard = mayonnaise.timecard;
 
 ...
 ```
@@ -48,7 +51,3 @@ const location = mayonnaise.location;
 ## API
 
 `mayonnaise.js` uses [casual](https://github.com/boo1ean/casual) under the hood, so you can use all of the generators specified in their [documentation](https://github.com/boo1ean/casual#embedded-generators) as well as various locales.
-
-## Sponsorship 🎗
-
-If you found this project useful, please consider becoming a [sponsor on GitHub](https://github.com/sponsors/nathanchapman).
