@@ -2,10 +2,19 @@
   "name": "mayonnaise.js",
   "version": "1.1.1",
   "license": "MIT",
-  "description": "JavaScript fake data generator, courtesy of Patrick Star.",
+  "description": "Fake data generator for JavaScript, courtesy of Patrick Star",
   "author": "Nathan Chapman <nathanchapman@duck.com> (http://nathanchapman.io)",
   "main": "src/mayonnaise.js",
-  "tonicExampleFilename": "src/example.js",
+  "repository": "github:nathanchapman/mayonnaise.js",
+  "bugs": "https://github.com/nathanchapman/mayonnaise.js/issues",
+  "homepage": "https://github.com/nathanchapman/mayonnaise.js#readme",
+  "runkitExampleFilename": "src/example.js",
+  "scripts": {
+    "test": "echo no test file specified"
+  },
+  "dependencies": {
+    "casual": "^1.6.2"
+  },
   "keywords": [
     "mayonnaise",
     "placeholder",
@@ -26,11 +35,5 @@
     "mock",
     "mocking",
     "generator"
-  ],
-  "repository": "github:nathanchapman/mayonnaise.js",
-  "bugs": "https://github.com/nathanchapman/mayonnaise.js/issues",
-  "homepage": "https://github.com/nathanchapman/mayonnaise.js#readme",
-  "dependencies": {
-    "casual": "^1.6.2"
-  }
+  ]
 }
