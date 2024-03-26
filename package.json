@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "license": "MIT",
   "description": "Fake data generator for JavaScript, courtesy of Patrick Star",
-  "author": "Nathan Chapman <nathanchapman@duck.com> (http://nathanchapman.io)",
+  "author": "Nathan Chapman <nathanchapman@duck.com> (https://nathanchapman.dev)",
   "main": "src/mayonnaise.js",
   "repository": "github:nathanchapman/mayonnaise.js",
   "bugs": "https://github.com/nathanchapman/mayonnaise.js/issues",
