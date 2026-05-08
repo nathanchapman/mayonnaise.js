@@ -5,7 +5,26 @@
  * Licensed under the MIT license.
  */
 
-const casual = require('casual');
+interface Mayonnaise {
+  catch_phrase: string;
+  define(name: string, generator: (...args: any[]) => unknown): void;
+  first_name: string;
+  full_name: string;
+  last_name: string;
+  location: string;
+  name: string;
+  place: string;
+  sentence: string;
+  sentences: (number?: number) => string;
+  short_description: string;
+  string: string;
+  timecard: string;
+  username: string;
+  word: string;
+  [generator: string]: any;
+}
+
+const casual = require('casual') as Mayonnaise;
 const {
   firstName,
   lastName,
@@ -16,7 +35,17 @@ const {
   timecard,
   username,
   word,
-} = require('./functions');
+} = require('./functions') as {
+  firstName: () => string;
+  lastName: () => string;
+  name: () => string;
+  place: () => string;
+  quote: () => string;
+  quotes: (number?: number) => string;
+  timecard: () => string;
+  username: () => string;
+  word: () => string;
+};
 
 casual.define('catch_phrase', quote);
 casual.define('first_name', firstName);
@@ -28,9 +57,9 @@ casual.define('place', place);
 casual.define('sentence', quote);
 casual.define('sentences', quotes);
 casual.define('timecard', timecard);
-casual.define('short_description', quotes);
+casual.define('short_description', quote);
 casual.define('string', quote);
 casual.define('username', username);
 casual.define('word', word);
 
-module.exports = casual;
+export = casual;

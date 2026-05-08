@@ -1,6 +1,6 @@
 # mayonnaise.js [![version](https://img.shields.io/npm/v/mayonnaise.js.svg)](https://www.npmjs.com/package/mayonnaise.js) [![downloads](https://img.shields.io/npm/dt/mayonnaise.js.svg)](https://www.npmjs.com/package/mayonnaise.js)
 
-JavaScript fake data generator, courtesy of Patrick Star.
+TypeScript-ready fake data generator for JavaScript, courtesy of Patrick Star.
 
 <img width="368" src="https://i.ytimg.com/vi/d1JA-nh0IfI/hqdefault.jpg">
 
@@ -9,7 +9,7 @@ JavaScript fake data generator, courtesy of Patrick Star.
 ## Installation
 
 ```sh
-npm install mayonnaise.js
+bun add mayonnaise.js
 ```
 
 ## Usage

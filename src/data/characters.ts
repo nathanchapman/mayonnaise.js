@@ -1,4 +1,4 @@
-module.exports = [
+const characters = [
   'Abigail Marge',
   'Barnacle Boy',
   'Bubble Bass',
@@ -36,3 +36,5 @@ module.exports = [
   'Squilliam Fancyson',
   'Tom',
 ];
+
+export = characters;

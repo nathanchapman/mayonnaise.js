@@ -1,4 +1,4 @@
-const mayonnaise = require('mayonnaise.js');
+import mayonnaise = require('mayonnaise.js');
 
 console.log('sentence:', mayonnaise.sentence);
 console.log('paragraph:', mayonnaise.sentences(4));

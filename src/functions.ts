@@ -1,27 +1,33 @@
-const { characters, patrick, places, timecards } = require('./data');
+const { characters, patrick, places, timecards } = require('./data') as {
+  characters: string[];
+  patrick: string[];
+  places: string[];
+  timecards: string[];
+};
 
-const random = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const random = <T>(arr: readonly T[]): T =>
+  arr[Math.floor(Math.random() * arr.length)] as T;
 
-const name = () => random(characters);
-const place = () => random(places);
-const quote = () => random(patrick);
+const name = (): string => random(characters);
+const place = (): string => random(places);
+const quote = (): string => random(patrick);
 
-const quotes = (number) => {
+const quotes = (number?: number): string => {
   let string = quote();
-  for (let i = 1; i < number; i += 1) {
+  for (let i = 1; i < (number ?? 1); i += 1) {
     string = `${string} ${quote()}`;
   }
   return string;
 };
 
-const firstName = () => name().split(' ')[0];
+const firstName = (): string => name().split(' ')[0] as string;
 
-const lastName = () => {
+const lastName = (): string => {
   const names = name().split(' ');
-  return names[names.length - 1];
+  return names[names.length - 1] as string;
 };
 
-const username = () => {
+const username = (): string => {
   const seed = random([name(), place()]);
   const adjective = random(['sucks', 'rocks', 'is cool']);
   const delimiter = random(['-', '_', '.']);
@@ -29,9 +35,12 @@ const username = () => {
   return user.replace('.', '').replace(/ /g, delimiter);
 };
 
-const timecard = () => random(timecards);
+const timecard = (): string => random(timecards);
 
-const word = () => random(quote().match(/\b(\w+)'?(\w+)?\b/g));
+const word = (): string => {
+  const words = quote().match(/\b(\w+)'?(\w+)?\b/g) ?? [''];
+  return random(words);
+};
 
 module.exports = {
   firstName,

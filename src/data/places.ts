@@ -1,4 +1,4 @@
-module.exports = [
+const places = [
   'Abyss',
   'Apple World',
   'Atlantis',
@@ -60,3 +60,5 @@ module.exports = [
   'Winchell Apartments',
   "Bottom's Up",
 ];
+
+export = places;

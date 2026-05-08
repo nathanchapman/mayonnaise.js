@@ -1,4 +1,4 @@
-module.exports = [
+const timecards = [
   '1 Hour Later...',
   '10 Seconds Later',
   '12:00 Midnight',
@@ -147,3 +147,5 @@ module.exports = [
   'Zee Next Evening',
   'Zee Next Morning...',
 ];
+
+export = timecards;

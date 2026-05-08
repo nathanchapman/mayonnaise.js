@@ -1,4 +1,4 @@
-module.exports = [
+const patrick = [
   '*sniffle* That Penny has the most beautiful voice.',
   'A doughnut?',
   'A SECRET STRING!!!',
@@ -102,3 +102,5 @@ module.exports = [
   "You're right, if I was the mom, this would be kind of shocking...",
   "You've got it set to M for MINI, when it should be set to W for WUMBO.",
 ];
+
+export = patrick;

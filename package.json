@@ -2,18 +2,48 @@
   "name": "mayonnaise.js",
   "version": "1.2.0",
   "license": "MIT",
+  "type": "commonjs",
   "description": "Fake data generator for JavaScript, courtesy of Patrick Star",
   "author": "Nathan Chapman <nathanchapman@duck.com> (https://nathanchapman.dev)",
-  "main": "src/mayonnaise.js",
+  "main": "dist/mayonnaise.cjs",
+  "types": "dist/mayonnaise.d.cts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/mayonnaise.d.mts",
+        "default": "./dist/mayonnaise.mjs"
+      },
+      "require": {
+        "types": "./dist/mayonnaise.d.cts",
+        "default": "./dist/mayonnaise.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": "github:nathanchapman/mayonnaise.js",
   "bugs": "https://github.com/nathanchapman/mayonnaise.js/issues",
   "homepage": "https://github.com/nathanchapman/mayonnaise.js#readme",
-  "runkitExampleFilename": "src/example.js",
+  "runkitExampleFilename": "dist/example.js",
+  "packageManager": "bun@1.3.13",
   "scripts": {
-    "test": "echo no test file specified"
+    "build": "bun ./node_modules/typescript/bin/tsc -p tsconfig.json",
+    "prepack": "bun run build",
+    "prepublishOnly": "bun run build",
+    "test": "bun test",
+    "typecheck": "bun ./node_modules/typescript/bin/tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
     "casual": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "bun-types": "^1.3.13",
+    "typescript": "^6.0.3"
   },
   "keywords": [
     "mayonnaise",
